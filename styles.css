@@ -1,3 +1,5 @@
+@import url('https://fonts.google.com/specimen/Barlow+Semi+Condensed:wght@500;600&display=swap');
+
 :root {
     --bg-color: hsl(214, 17%, 92%);
     --shadow-color:hsl(0, 0%, 81%);
@@ -13,9 +15,51 @@ body {
     
 }
 
+.card {
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 2fr;
+
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 20px var(--card-gray);
+}
 .profile {
     display: flex;
+    gap:10px;
 }
 .profile img {
     border-radius: 50%;
+}
+
+#first {
+    background-color: var(--card-purple);
+    color:var(--card-white);
+    position: relative;
+}
+#first .quotation {
+    position: absolute;
+    right: 10%;
+    top: 0;
+}
+
+#second {
+    background-color: var(--card-gray);
+    color: var(--card-white);
+}
+
+#third {
+    background-color: var(--card-white);
+    color: var(--card-gray);
+}
+
+#fourth {
+    background-color: var(--card-navy);
+    color: var(--card-white);
+}
+
+#fifth {
+    background-color: var(--card-white);
+    color: var(--card-gray);
 }
