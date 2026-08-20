@@ -1,0 +1,21 @@
+:root {
+    --bg-color: hsl(214, 17%, 92%);
+    --shadow-color:hsl(0, 0%, 81%);
+    --card-white:hsl(0, 0%, 100%);
+    --card-purple:hsl(263, 55%, 52%);
+    --sec-purple:hsl(264, 82%, 80%);
+    --card-gray:hsl(217, 19%, 35%);
+    --card-navy:hsl(219, 29%, 14%);
+}
+
+body {
+    background-color: var(--bg-color);
+    
+}
+
+.profile {
+    display: flex;
+}
+.profile img {
+    border-radius: 50%;
+}
