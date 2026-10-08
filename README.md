@@ -6,7 +6,7 @@ The goal of this project was to recreate the multi-column card layout using sema
 
 ## 📸 Screenshot
 
-![Preview](./design/desktop-preview.jpg)
+![Preview](./design/desktop-design.jpg)
 
 ## 🔗 Links
 
