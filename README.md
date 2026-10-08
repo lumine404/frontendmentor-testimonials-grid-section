@@ -55,6 +55,7 @@ This project helped me improve my understanding of:
         grid-row: 1 / 3; /* Spans across both rows */
     }
 }
+```
 
 ## 💡 Challenges
 
